@@ -2,21 +2,17 @@
 //
 
 #include <iostream>
+using namespace std;
 
-int main()
-{
-#include <iostream>
-    using namespace std;
+ int main() 
+ {
+     cout << "Enter A and B: ";
+     int a, b;
+     cin >> a >> b;
+     cout << "A + B = " << a + b << '\n';
+     return 0;
+ }
 
-    int main() {
-        cout << "Enter A and B: ";
-        int a, b;
-        cin >> a >> b;
-        cout << "A + B = " << a + b << '\n';
-        return 0;
-    }
-
-}
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
 // Отладка программы: F5 или меню "Отладка" > "Запустить отладку"
