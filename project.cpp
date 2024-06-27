@@ -6,6 +6,7 @@ using namespace std;
 
  int main() 
  {
+     // хорошая функция, положительная
      cout << "Enter A and B: ";
      int a, b;
      cin >> a >> b;
