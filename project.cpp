@@ -14,7 +14,7 @@ using namespace std;
          << "A - B = " << a - b << '\n'
          << "A * B = " << a * b << '\n'
          << "A / B = " << a / b << '\n'
-         << "Max(A, B) = " << (a > b ? a : b) << '\n';
+         << "Max(A, B) = " << (a > b ? a : b) << '\n'
          << "Min(A, B) = " << (a < b ? a : b) << '\n';
      return 0;
  }
